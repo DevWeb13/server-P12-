@@ -14,6 +14,9 @@ const {
     handleNoUserData
 } = require('./middleware')
 
+router.get('/', (_req, res) => {
+    res.send("Hello World !!");
+})
 
 router.get('/user/:id', (req, res) => {
     const userId = idx(req, _ => _.params.id)
