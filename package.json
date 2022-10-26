@@ -17,5 +17,8 @@
   "scripts": {
     "dev": "node_modules/.bin/nodemon app/server.js",
     "start": "node app/server.js"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
